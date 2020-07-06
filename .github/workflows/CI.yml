@@ -13,30 +13,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 切换分支
+      - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: false
-
-      - name: 安装nodeJS
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-
-      - name: 下载gitbookCli工具
+      - name: 'Installing gitbook cli'
         run: npm install -g gitbook-cli
-        
-      # 生成静态文件
-      - name: 生成静态文件
+      - name: 'Generating distributable files'
         run: |
           gitbook install
           gitbook build
-
-      # 推送文件到github pages
       - name: Deploy docs to ghpages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.BOOK_TOKEN }}
+          deploy_key: ${{ secrets.ACTION_DEPLOY_KEY }}
           publish_branch: gh-pages
           publish_dir: ./
           cname: sunyuan.info
