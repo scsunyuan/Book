@@ -25,6 +25,6 @@ jobs:
         gitbook build
     - uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        ACCESS_TOKEN: ${{ secrets.BOOK_TOKEN }}
+        BOOK_TOKEN: ${{ secrets.BOOK_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: ./_book
