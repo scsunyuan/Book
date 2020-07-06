@@ -23,11 +23,10 @@ jobs:
       run: |
         gitbook install
         gitbook build
-    - name: Deploy
+    - name: Deploy docs to ghpages
       uses: peaceiris/actions-gh-pages@v3
       with:
         deploy_key: ${{ secrets.BOOK_TOKEN }}
-        personal_token: ${{ secrets.BOOK_TOKEN }}
-        github_token: ${{ secrets.BOOK_TOKEN }}
-        publish_dir: ./book/
+        publish_branch: gh-pages
+        publish_dir: ./
         cname: sunyuan.info
