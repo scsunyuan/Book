@@ -27,9 +27,8 @@ jobs:
           gitbook install
           gitbook build
       - name: Deploy docs to ghpages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          deploy_key: ${{ secrets.ACTION_DEPLOY_KEY }}
-          publish_branch: gh-pages
-          publish_dir: ./
-          cname: sunyuan.info
+      - uses: peaceiris/actions-gh-pages@v2.5.0
+        env:
+          ACTIONS_DEPLOY_KEY: ${{ secrets.ACTION_DEPLOY_KEY }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./_book
