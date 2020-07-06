@@ -23,8 +23,8 @@ jobs:
       run: |
         gitbook install
         gitbook build
-    - uses: peaceiris/actions-gh-pages@v2.5.0
-      env:
-        BOOK_TOKEN: ${{ secrets.BOOK_TOKEN }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./_book
+    - uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.BOOK_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: _book/
