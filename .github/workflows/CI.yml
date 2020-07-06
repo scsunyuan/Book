@@ -1,4 +1,4 @@
-name: '编译并推送gh服务'
+name: Deploy GitHub Pages
 
 # 触发条件：在 push 到 master 分支后
 on:
@@ -13,26 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: '切换分支'
+      - name: 切换分支
         uses: actions/checkout@v2
         with:
           persist-credentials: false
 
-      - name: '安装nodeJS'
+      - name: 安装nodeJS
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
 
-      - name: '下载gitbook cli工具'
+      - name: 下载gitbookCli工具
         run: npm install -g gitbook-cli
-
-      - name: '生成静态文件'
+        
+      # 生成静态文件
+      - name: 生成静态文件
         run: |
           gitbook install
           gitbook build
 
-      # 推送文件到 github pages
-      - name: Deploy to ghpages
+      # 推送文件到github pages
+      - name: Deploy docs to ghpages
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.BOOK_TOKEN }}
