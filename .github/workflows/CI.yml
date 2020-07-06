@@ -31,5 +31,6 @@ jobs:
       - uses: peaceiris/actions-gh-pages@v2.5.0
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTION_DEPLOY_KEY }}
+          GITHUB_TOKEN:  ${{ secrets.BOOK_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./_book
