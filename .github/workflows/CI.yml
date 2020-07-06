@@ -6,9 +6,6 @@ on:
     branches:
       - master
 
-env:
-  ebook_name: 'gitbook-test'
-
 # 任务
 jobs:
   build-and-deploy:
@@ -31,6 +28,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.BOOK_TOKEN }}
           BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: ./_book # The folder the action should deploy.
+          FOLDER: _book # The folder the action should deploy.
