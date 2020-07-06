@@ -23,7 +23,7 @@ jobs:
       run: |
         gitbook install
         gitbook build
-    - uses: JamesIves/github-pages-deploy-action@releases/v3
+    - uses: peaceiris/actions-gh-pages@v2.5.0
       with:
         ACCESS_TOKEN: ${{ secrets.BOOK_TOKEN }}
         BRANCH: gh-pages
