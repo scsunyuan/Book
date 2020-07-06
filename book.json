@@ -1,12 +1,46 @@
 {
   "title": "@一个前端",
+  "author" : "sunyuan",
   "description": "用来记录平时点滴，部署在github的gitbook",
-  "language": "zh",
+  "language" : "zh-hans",
 
-  "plugins": ["sitemap"],
+  "plugins": [
+    "-search", 
+    "-sharing",
+    "sitemap",
+    "search-pro",
+    "github",
+    "anchors",
+    "copy-code-button",
+    "back-to-top-button",
+    "rss",
+    "todo",
+    "emphasize",
+    "advanced-emoji"
+  ],
   "pluginsConfig": {
     "sitemap": {
-      "hostname": "https://www.sunyuan.info"
+      "hostname": "https://sunyuan.info"
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba",
+      "defineWord" : ["Gitbook Use"]
+    },
+    "github": {
+        "url": "https://github.com/scsunyuan"
+    },
+    "rss": {
+      "title": "一个前端",
+      "description": "用来记录平时点滴，部署在github的gitbook",
+      "author": "sunyuan",
+      "site_url": "https://sunyuan.info/",
+      "feed_url": "https://sunyuan.info/srr",
+      "managingEditor": "75879446@qq.com(sunyuan)",
+      "webMaster": "75879446@qq.com(sunyuan)",
+      "categories": [
+        "book",
+        "gitbook"
+      ]
     }
   }
 }
