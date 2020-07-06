@@ -1,0 +1,12 @@
+{
+  "title": "@一个前端",
+  "description": "用来记录平时点滴，部署在github的gitbook",
+  "language": "zh",
+
+  "plugins": ["sitemap"],
+  "pluginsConfig": {
+    "sitemap": {
+      "hostname": "https://www.sunyuan.info"
+    }
+  }
+}
