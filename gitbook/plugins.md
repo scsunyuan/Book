@@ -1,4 +1,7 @@
 > 仅以此记录本博客所用插件  
+> 随文留注插件github仓库地址，便于后续查阅  
+  
+  
 
 - [search-pro](https://github.com/gitbook-plugins/gitbook-plugin-search-pro)  
 
