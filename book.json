@@ -7,13 +7,13 @@
   "plugins": [
     "-search", 
     "-sharing",
-    "sitemap",
     "search-pro",
     "github",
     "anchors",
     "copy-code-button",
     "back-to-top-button",
     "rss",
+    "sitemap",
     "todo",
     "emphasize",
     "advanced-emoji"
