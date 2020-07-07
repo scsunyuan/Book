@@ -4,7 +4,7 @@
         <description><![CDATA[用来记录平时点滴，部署在github的gitbook]]></description>
         <link>https://sunyuan.info/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 07 Jul 2020 03:01:06 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2020 05:02:12 GMT</lastBuildDate>
         <atom:link href="https://sunyuan.info/srr" rel="self" type="application/rss+xml"/>
         <author><![CDATA[sunyuan]]></author>
         <managingEditor><![CDATA[75879446@qq.com(sunyuan)]]></managingEditor>
@@ -16,6 +16,12 @@
             <description><![CDATA[时常会思考一个现代化前端所需要具备的，然后就开始莫名的惶恐，进而囫囵吞枣，乱学一气…]]></description>
             <link>https://sunyuan.info/</link>
             <guid isPermaLink="true">https://sunyuan.info/</guid>
+            <dc:creator><![CDATA[sunyuan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>https://sunyuan.info/gitbook/plugins.html</link>
+            <guid isPermaLink="true">https://sunyuan.info/gitbook/plugins.html</guid>
             <dc:creator><![CDATA[sunyuan]]></dc:creator>
         </item>
     </channel>
