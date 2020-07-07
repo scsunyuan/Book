@@ -4,7 +4,7 @@
         <description><![CDATA[用来记录平时点滴，部署在github的gitbook]]></description>
         <link>https://sunyuan.info/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 06 Jul 2020 14:34:25 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jul 2020 03:01:06 GMT</lastBuildDate>
         <atom:link href="https://sunyuan.info/srr" rel="self" type="application/rss+xml"/>
         <author><![CDATA[sunyuan]]></author>
         <managingEditor><![CDATA[75879446@qq.com(sunyuan)]]></managingEditor>
@@ -13,7 +13,7 @@
         <category><![CDATA[gitbook]]></category>
         <item>
             <title><![CDATA[关于我]]></title>
-            <description><![CDATA[从工程行业转入IT行业工作，当前工作方向主要是 前端，日常刷业务 Vue 全家桶， 对 React 也有少许相关经验，例如 Taro。 喜欢折腾一些新的技术。]]></description>
+            <description><![CDATA[时常会思考一个现代化前端所需要具备的，然后就开始莫名的惶恐，进而囫囵吞枣，乱学一气…]]></description>
             <link>https://sunyuan.info/</link>
             <guid isPermaLink="true">https://sunyuan.info/</guid>
             <dc:creator><![CDATA[sunyuan]]></dc:creator>
