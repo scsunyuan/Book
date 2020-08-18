@@ -1,11 +1,10 @@
 {
-  "title": "@一个前端",
+  "title": "一个前端",
   "author" : "sunyuan",
   "description": "用来记录平时点滴，部署在github的gitbook",
   "language" : "zh-hans",
-
   "plugins": [
-    "-search", 
+    "search", 
     "-sharing",
     "search-pro",
     "github",
@@ -16,7 +15,9 @@
     "sitemap",
     "todo",
     "emphasize",
-    "advanced-emoji"
+    "advanced-emoji",
+    "favicon-absolute",
+    "insert-logo"
   ],
   "pluginsConfig": {
     "sitemap": {
@@ -41,6 +42,14 @@
         "book",
         "gitbook"
       ]
+    },
+    "favicon-absolute":{
+      "favicon": "/favicon.ico",
+      "appleTouchIconPrecomposed152": "/logo.png"
+    },
+    "insert-logo": {
+      "url": "/logo.png",
+      "style": "background: none;width: 100px"
     }
   }
 }

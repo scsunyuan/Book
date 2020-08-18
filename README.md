@@ -4,7 +4,13 @@
 
 俗话说的好，天下武（前）功（端），唯快（JS、TS）不破。 :eyes:  
 
-# 关于我
+## 出发点  
+其实写点东西，是我萌发了很久的一个年头。    
+怕写不好，尬。    
+怕别人看到觉得肤浅， 虚。
+
+
+## 关于我
 
 从工程行业转入IT行业工作，当前工作方向主要是 前端，日常刷业务 Vue 全家桶， 对 React 也有少许相关经验，例如 Taro。 喜欢折腾一些新的技术。
 
@@ -18,8 +24,8 @@
 
 ## 关于博客  
 
-一直都想着找个合适的方式用来记录一些东西，从hexo、wordpress、vuepress、gitbook…之类，到自己利用nuxt了实现一套博客系统，但终究是 花里胡哨，不够完美。在工具上花费了大量的时间和精力。  
+一直都想着找个合适的方式用来记录一些东西，从Hexo、Wordpress、Vuepress、Gitbook…之类，到自己利用Nuxt了实现一套博客系统，但终究是 花里胡哨，不够完美。在工具上花费了大量的时间和精力。  
 
-本博客使用Gitbook搭建， 源文件托管于[Github](https://github.com/scsunyuan/book)。 在github actions的助力下，解决了手动部署，gitbook国内环境慢等问题。这才是我理想中的笔记类托管方式。  
+本博客使用Gitbook搭建， 源文件托管于[Github](https://github.com/scsunyuan/book)。 在Github Actions的助力下，解决了手动部署，Gitbook国内环境慢等问题。这才是我理想中的笔记类托管方式。  
 
 
