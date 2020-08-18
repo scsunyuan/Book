@@ -27,5 +27,3 @@
 一直都想着找个合适的方式用来记录一些东西，从Hexo、Wordpress、Vuepress、Gitbook…之类，到自己利用Nuxt了实现一套博客系统，但终究是 花里胡哨，不够完美。在工具上花费了大量的时间和精力。  
 
 本博客使用Gitbook搭建， 源文件托管于[Github](https://github.com/scsunyuan/book)。 在Github Actions的助力下，解决了手动部署，Gitbook国内环境慢等问题。这才是我理想中的笔记类托管方式。  
-
-
