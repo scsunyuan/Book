@@ -1,7 +1,6 @@
-> 仅以此记录本博客所用插件  
-> 随文留注插件github仓库地址，便于后续查阅  
-  
-  
+## GitBook 插件
+
+> 仅以此记录本博客所用插件，随文留注插件github仓库地址，便于后续查阅。  
 
 1. 中文搜索 - [search-pro](https://github.com/gitbook-plugins/gitbook-plugin-search-pro)  
 
@@ -23,7 +22,7 @@
 
 10. Emoji插件 - [advanced-emoji](https://github.com/codeclou/gitbook-plugin-advanced-emoji)  
 
-  表情包 - [emoji表情](https://www.webfx.com/tools/emoji-cheat-sheet/)  
+    - 表情包 - [emoji表情](https://www.webfx.com/tools/emoji-cheat-sheet/)  
 
 11. 网站图标 - [favicon-absolute](https://github.com/snowdreams1006/gitbook-plugin-favicon-absolute)  
 
