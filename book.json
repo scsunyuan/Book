@@ -17,7 +17,8 @@
     "emphasize",
     "advanced-emoji",
     "favicon-absolute",
-    "insert-logo"
+    "insert-logo",
+    "tbfed-pagefooter"
   ],
   "pluginsConfig": {
     "sitemap": {
@@ -50,6 +51,11 @@
     "insert-logo": {
       "url": "/logo.png",
       "style": "background: none;width: 100px"
+    },
+    "tbfed-pagefooter": {
+      "copyright":"",
+      "modify_label": "文件修订时间：",
+      "modify_format": "YYYY/MM/DD HH:mm:ss"
     }
   }
 }
