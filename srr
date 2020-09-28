@@ -4,7 +4,7 @@
         <description><![CDATA[用来记录平时点滴，部署在github的gitbook]]></description>
         <link>https://sunyuan.info/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 18 Aug 2020 08:08:14 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Sep 2020 02:29:10 GMT</lastBuildDate>
         <atom:link href="https://sunyuan.info/srr" rel="self" type="application/rss+xml"/>
         <author><![CDATA[sunyuan]]></author>
         <managingEditor><![CDATA[75879446@qq.com(sunyuan)]]></managingEditor>
@@ -21,8 +21,15 @@
         <item>
             <title><![CDATA[No title]]></title>
             <description><![CDATA[表情包 - emoji表情]]></description>
-            <link>https://sunyuan.info/gitbook/plugins.html</link>
-            <guid isPermaLink="true">https://sunyuan.info/gitbook/plugins.html</guid>
+            <link>https://sunyuan.info/gitbook/plugins/plugins.html</link>
+            <guid isPermaLink="true">https://sunyuan.info/gitbook/plugins/plugins.html</guid>
+            <dc:creator><![CDATA[sunyuan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[从工程行业转入IT行业工作，当前工作方向主要是 前端，日常刷业务 Vue 全家桶， 对 React 也有少许相关经验，例如 Taro。 喜欢折腾一些新的技术。]]></description>
+            <link>https://sunyuan.info/gitbook/about/about.html</link>
+            <guid isPermaLink="true">https://sunyuan.info/gitbook/about/about.html</guid>
             <dc:creator><![CDATA[sunyuan]]></dc:creator>
         </item>
     </channel>
