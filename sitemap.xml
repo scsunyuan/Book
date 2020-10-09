@@ -3,5 +3,6 @@
 <url> <loc>https://sunyuan.info/./</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://sunyuan.info/gitbook/plugins/plugins.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://sunyuan.info/gitbook/mac/</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://sunyuan.info/gitbook/react/router-params.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://sunyuan.info/gitbook/about/about.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 </urlset>

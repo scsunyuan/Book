@@ -4,7 +4,7 @@
         <description><![CDATA[用来记录平时点滴，部署在github的gitbook]]></description>
         <link>https://sunyuan.info/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 28 Sep 2020 07:08:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Oct 2020 09:34:55 GMT</lastBuildDate>
         <atom:link href="https://sunyuan.info/srr" rel="self" type="application/rss+xml"/>
         <author><![CDATA[sunyuan]]></author>
         <managingEditor><![CDATA[75879446@qq.com(sunyuan)]]></managingEditor>
@@ -28,6 +28,13 @@
             <title><![CDATA[No title]]></title>
             <link>https://sunyuan.info/gitbook/mac/index.html</link>
             <guid isPermaLink="true">https://sunyuan.info/gitbook/mac/index.html</guid>
+            <dc:creator><![CDATA[sunyuan]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <description><![CDATA[官方 WEB Router文档]]></description>
+            <link>https://sunyuan.info/gitbook/react/router-params.html</link>
+            <guid isPermaLink="true">https://sunyuan.info/gitbook/react/router-params.html</guid>
             <dc:creator><![CDATA[sunyuan]]></dc:creator>
         </item>
         <item>
